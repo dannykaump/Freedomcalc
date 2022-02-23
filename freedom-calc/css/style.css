@@ -1,0 +1,93 @@
+/******************************************
+/* CSS
+/*******************************************/
+
+/* Box Model Hack */
+*{
+  box-sizing: border-box;
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+
+form section {
+  display: flex;
+  justify-content: space-evenly;
+  align-content: space-around;
+  justify-items: center;
+  align-items: center;
+  padding: 20px;
+  min-height: 100px;
+}
+
+
+input {
+  height: 25px;
+}
+
+
+button {
+  margin: 40px auto;
+  display: block;
+  padding: 5px 30px;
+}
+
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+body {
+  background: rgb(8, 8, 12);
+  font-family: 'Gideon Roman', cursive;
+}
+
+h1 {
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+}
+
+input {
+  border-radius: 3px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+label {
+  font-size: 1.3em;
+  color: white;
+  background: rgba(0, 0, 0, 0.165);
+}
+
+form, button {
+  background: url('https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/american-flag-royalty-free-image-1622221520.jpg?crop=1.00xw:0.880xh;0,0.120xh&resize=1200:*');
+}
+
+button {
+  font-size: 1.2em;
+  color: white;
+  font-weight: 600;
+}
+
+img {
+  width: 50%;
+  display: block;
+  margin: auto;
+}
+
+/*HIDDEN CLASS*/
+
+.hidden {
+  display: none;
+}
+
+
+
